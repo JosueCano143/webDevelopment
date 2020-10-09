@@ -1,0 +1,103 @@
+#description{
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+	position: relative;
+}
+
+.img img{
+	width: 300px;
+	max-width: 400px;
+}
+.text{
+	padding: 20px;
+}
+
+.text>h2{
+	font-family: 'Patua One';
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.text>h3{
+	border-bottom: 1px solid #bbb;
+	height: 2.5em;
+}
+
+.text>h3, p{
+	font-family: 'Hind Madurai', sans-serif;
+	margin-top: 13px;
+	text-align: justify;
+}
+
+#slider>section>img{
+	display: block;
+	width: 100%;
+}
+
+#c-slider{
+	margin: auto;
+	margin-top: 10vh;
+	width: 80%;
+	max-width: 380px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 0 10px #FFF,
+				0 20px 50px #333;
+
+}
+
+#slider{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+#btn-prev, #btn-next{
+	width: 40px;
+	height: 40px;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #FFF;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: monospace;
+	border-radius: 20%;
+	transition: all 0.3s;
+}
+
+#btn-prev:hover, #btn-next:hover{
+	background: rgba(0,0,0,1);
+}
+
+#btn-prev{
+	left: 10px;
+}
+
+#btn-next{
+	right: 10px;
+}
+
+#c-author{
+	margin-top: 50px;
+	padding: 20px;
+	background: rgba(255,255,255,0.3);
+	display: flex;
+	border-radius: 20px;
+	box-shadow: 0 0 20px 1px #ccc;
+}
+
+#author-img{
+	margin: auto;
+	width: 300px;
+}
+#author-description{
+	font-family: 'Hind Madurai', sans-serif;
+	padding: 20px;
+}

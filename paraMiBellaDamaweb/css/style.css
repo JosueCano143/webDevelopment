@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#bg{
+	margin-left: -10px;
+	min-width: 600px;
+	width: 110vw;
+	height: 200%;
+	z-index: -100;
+	position: fixed;
+	overflow: hidden;
+}
+
+#bg img{
+	width: 100%;
+	margin-top: -100px;
+}
+#c-navegate{
+	height: 60px;
+	background: rgb(127,0,11);
+	position: relative;
+}
+
+#navegate{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+
+#menu{
+	display: flex;
+	font-family: sans-serif;
+	font-weight: bold;
+	list-style: none;
+}
+
+#menu>li:hover>a{
+	color: #E35B73;
+}
+
+.menu>a{
+	color: #FFF;
+	padding: 1.5em;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+#c-header{
+	color: #FFF;
+	height: 750px;
+	max-height: 900px;
+	position: relative;
+	overflow: hidden;
+	z-index: 100;
+}
+
+#c-header>img{
+	margin-top: -18%;
+	min-width: 600px;
+	position: absolute;
+	right: 0;
+}
+
+
+#title{
+	font-family: 'Great Vibes', cursive;
+	font-size: 60px;
+	width: 100vw;
+	display: flex;
+	margin: auto;
+	margin-top: 300px;
+}
+
+#title>h1{
+	margin: auto;
+	text-align: center;
+}
+
+#c-article{
+	background: rgba(255,255,255,0.5);
+	border-radius: 15px;
+	width: 900px;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 0 0 30px 5px #ccc;
+	box-sizing: border-box;
+}
+
+h2{
+	font-family: 'Patua One';
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+h3, p{
+	font-family: 'Hind Madurai', sans-serif;
+	margin-top: 13px;
+	text-align: justify;
+}
+
+
+#c-footer{
+	margin-top: 30px;
+	width: 100vw;
+	background: #400009;
+}
+
+#footer{
+	width: 930px;
+	margin:auto;
+	padding: 30px;
+	color: #FF8A73;
+}
+
+.title{
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+	font-size: 3em;
+	width: 100%;
+}
+
+#content-footer{
+	display: flex;
+	flex-direction: row;
+}
+
+.column{
+	margin: 1em;
+}

@@ -1,0 +1,104 @@
+/* Responsive */
+
+@media screen and (max-width: 1920px){
+	#c-header{height: 600px;}
+	#c-header>img{margin-top: -16%;}
+	#c-header>#title{margin-top: 300px;}
+}
+
+@media screen and (max-width: 1184px){
+	#c-article{
+		width: 100vw;
+	}
+
+	#c-header{height: 300px;} #c-header>img{margin-top: -15%;}
+	#c-header>#title{
+		margin-top: 115px;
+		font-size: 40px;
+	}
+	#footer{width: 100vw;}
+}
+
+@media screen and (max-width: 600px) {
+	#description, #content-footer, #c-author, .c-card{flex-direction: column;}
+	#c-header>#title{
+		margin-top: 115px;
+		font-size: 25px;
+	}
+	.description img{
+		width: 100%
+	}
+}
+
+/* Cartas de anuncios */
+
+#c-article{
+	padding: 20px;
+}
+
+.c-card>img{
+	border-radius: 10px;
+	width: 300px;
+	height: 500px;
+}
+
+.c-card h3{
+	margin: 2em;
+}
+
+.c-card{
+	display: flex;
+	text-decoration: none;
+	padding: 10px;
+	width: 100%;
+	margin: auto;
+	margin-top: 20px;
+
+}
+
+.card:hover{background: rgba(255,255,255,0.4);}
+
+.card{
+	border-top: 1px solid #BBB;
+	border-radius: 10px;
+	padding: 1em;
+	background: rgba(255,255,255,0.2);
+	transition: background .3s;
+}
+
+/* Agradecimientos */
+
+#c-article h1{
+	font-family: 'Patua One', sans-serif;
+}
+
+table{
+	margin-top: 20px;
+	font-family: 'Hind Madurai', sans-serif;
+}
+
+td, tr{
+	padding: 3px;
+}
+
+td{
+	background: rgba(255,255,255,0.3);
+	border-radius: 3px;
+	box-shadow: 0 0 10px 1px #fff;
+}
+
+li{
+	list-style: none;
+}
+
+.equipo>li{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px 0 5px 5px;
+}
+
+.integrantes>li{
+	margin-left: 1em;
+	color: #333;
+}
+
